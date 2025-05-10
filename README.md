@@ -60,12 +60,12 @@ The notebook outputs the following results:
 ## Key Findings
 
 - **Bi-Encoder Performance**:
-  - Achieved 66.04% accuracy and 65.97% F1-score on the MNLI validation set.
-  - Demonstrated zero-shot performance on Spanish XNLI with 59.64% accuracy and 59.56% F1-score, and on German XNLI with 55.99% accuracy and 55.93% F1-score.
+  - Achieved 67.59% accuracy and 67.53% F1-score on the MNLI validation set.
+  - Demonstrated zero-shot performance on Spanish XNLI with 60.46% accuracy and 60.47% F1-score, and on German XNLI with 57.25% accuracy and 57.29% F1-score.
 
 - **Cross-Encoder Performance**:
-  - Significantly outperformed the bi-encoder on the MNLI validation set with 82.40% accuracy and 82.36% F1-score.
-  - Showed superior zero-shot transfer to Spanish XNLI (75.09% accuracy, 75.10% F1-score) and German XNLI (71.80% accuracy, 71.75% F1-score).
+  - Significantly outperformed the bi-encoder on the MNLI validation set with 82.63% accuracy and 82.59% F1-score.
+  - Showed superior zero-shot transfer to Spanish XNLI (74.87% accuracy, 74.89% F1-score) and German XNLI (72.02% accuracy, 72.03% F1-score).
 
 - **Performance Comparison (Zero-Shot)**:
   - The cross-encoder exhibited a substantial performance advantage over the bi-encoder in the zero-shot setting on both Spanish and German NLI tasks. This suggests the joint encoding strategy is more effective for cross-lingual transfer in this context, with accuracy improvements of approximately 15% on both target languages.
