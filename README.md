@@ -71,7 +71,7 @@ The notebook outputs the following results:
   - The cross-encoder exhibited a substantial performance advantage over the bi-encoder in the zero-shot setting on both Spanish and German NLI tasks. This suggests the joint encoding strategy is more effective for cross-lingual transfer in this context, with accuracy improvements of approximately 15% on both target languages.
 
 - **Statistical Significance**:
-  - While the observed performance differences were notable (around 15-16% in accuracy on the zero-shot tasks), bootstrap tests for accuracy did not yield p-values below the 0.05 threshold (MNLI: p=0.5062, Spanish: p=0.5019, German: p=0.5056). 
+  - While the observed performance differences were notable (around 12-15% in accuracy on the zero-shot tasks), bootstrap tests for accuracy did not yield p-values below the 0.05 threshold (MNLI: p=0.5048, Spanish: p=0.5057, German: p=0.5013). 
   - This indicates that the observed differences are not statistically significant based on this analysis. However, the consistent and practically meaningful performance gap suggests further investigation is warranted, potentially with larger sample sizes or alternative statistical methods.
 
 ## Further Work
